@@ -1,0 +1,74 @@
+{
+  "typ": "Blok",
+  "instrukcje": [
+    {
+      "typ": "Przypisanie",
+      "nazwa": "a",
+      "wartosc": {
+        "typ": "Liczba",
+        "wartosc": 10.0
+      }
+    },
+    {
+      "typ": "Przypisanie",
+      "nazwa": "silnia",
+      "wartosc": {
+        "typ": "Liczba",
+        "wartosc": 1.0
+      }
+    },
+    {
+      "typ": "While",
+      "warunek": {
+        "typ": ">",
+        "argument1": {
+          "typ": "Zmienna",
+          "nazwa": "a"
+        },
+        "argument2": {
+          "typ": "Liczba",
+          "wartosc": 1.0
+        }
+      },
+      "blok": {
+        "typ": "Blok",
+        "instrukcje": [
+          {
+            "typ": "Przypisanie",
+            "nazwa": "silnia",
+            "wartosc": {
+              "typ": "Razy",
+              "argument1": {
+                "typ": "Zmienna",
+                "nazwa": "a"
+              },
+              "argument2": {
+                "typ": "Zmienna",
+                "nazwa": "silnia"
+              }
+            }
+          },
+          {
+            "typ": "Przypisanie",
+            "nazwa": "a",
+            "wartosc": {
+              "typ": "Minus",
+              "argument1": {
+                "typ": "Zmienna",
+                "nazwa": "a"
+              },
+              "argument2": {
+                "typ": "Liczba",
+                "wartosc": 1.0
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "typ": "Zmienna",
+      "nazwa": "silnia"
+    }
+  ]
+}

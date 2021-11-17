@@ -1,0 +1,23 @@
+Program można odpalić z Intellij
+
+Klikamy 
+>Run
+>Edit Configurations
+
+i w ramce (co pod spodem jest Press Alt for field) wpisujemy
+src/test/resources/Nazwa_programu.json WynikJava WynikJson
+
+>ok
+>zielona strzałka w prawym górnym rogu obok żółwia
+
+
+z terminala (przynajmniej u mnie tak się odpala) z poziomu katalogu Robson
+
+wpisujemy
+
+. /opt/tools/env.sh
+
+mvn clean dependency:copy-dependencies package
+
+java -jar target/Robson-1.0-SNAPSHOT.jar src/test/resources/Fibonacci.json FibJava FibJson
+
