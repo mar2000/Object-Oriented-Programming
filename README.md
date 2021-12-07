@@ -230,19 +230,26 @@ obowiązkowe pole “typ” oraz dodatkowe argumenty wg następującej tabeli
 
 (Typ Dodatkowe atrybuty)
 
-Blok: instrukcje - lista instrukcji lub wyrażeń
+Blok: 
+   - instrukcje - lista instrukcji lub wyrażeń
 
-If: warunek - wyrażenie opisujące warunek logiczny
+If: 
+
+   - warunek - wyrażenie opisujące warunek logiczny
 
    - blok_prawda - wyrażenie które ma być wyliczone gdy warunek jest prawdziwy
     
    - blok_falsz - (atrybut opcjonalny) wyrażenie które ma być wykonane gdy warunek jest fałszywy
     
-While: warunek - wyrażenie opisujące warunek logiczny
+While: 
+
+  - warunek - wyrażenie opisujące warunek logiczny
 
   - blok - wyrażenie które ma być wykonane w pojedynczej iteracji pętli
        
-Przypisanie: nazwa - nazwa zmiennej do przypisania (str)
+Przypisanie: 
+
+  - nazwa - nazwa zmiennej do przypisania (str)
 
   - wartosc - wyrażenie opisujące prawą stronę przypisania
              
@@ -252,7 +259,9 @@ Plus|Minus|Razy|Dzielenie:
 
    - argument2 - wyrażenie opisujące drugi argument
                            
-And|Or: argument1 - wyrażenie opisujące pierwszy argument
+And|Or:
+
+   - argument1 - wyrażenie opisujące pierwszy argument
 
    - argument2 - wyrażenie opisujące drugi argument
         
