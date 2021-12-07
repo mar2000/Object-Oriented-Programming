@@ -2,8 +2,6 @@
 
 ZADANIE ROBY
 
-Zad. nr 1: Ewolucja czyli niech programy piszą się same
-
 Wstęp
 
 W tym zadaniu zajmiemy się ewolucją. Wprawdzie ewolucja miała do dyspozycji całą powierzchnię
