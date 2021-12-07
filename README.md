@@ -1,6 +1,5 @@
 # Object-Oriented-Programming
 
-\\ \\ \\ 
 ZADANIE ROBY
 
 Wstęp
