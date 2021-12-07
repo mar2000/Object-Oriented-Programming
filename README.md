@@ -76,11 +76,16 @@ Spis instrukcji
 W kodzie programów mogą występować tylko instrukcje ze spis_instr. Ten spis w kolejnym
 uruchomieniu symulacji może zawierać tylko część z wymienionych poniżej instrukcji (ale może
 zawierać wszystkie, o ile gdzie indziej nie jest podane inaczej):
+
 ● l (lewo) obróć się o 90 stopni w lewo,
+
 ● p (prawo) obróć się o 90 stopni w prawo,
+
 ● i (idź) idź do przodu o jedno pole (jeśli tam jest pożywienie, to je zjedz),
+
 ● w (wąchaj) sprawdź, czy któraś z (czterech) sąsiednich komórek ma pożywienie, jeśli tak, to
   zwróć się w jej stronę (bez przechodzenia),
+
 ● j (jedz) sprawdź, czy któraś z (ośmiu) sąsiednich komórek (także te na ukos) ma pożywienie,
 jeśli tak, to przejdź tam i zjedz, wpp nic nie rób.
 
@@ -235,31 +240,41 @@ If: warunek - wyrażenie opisujące warunek logiczny
     
 While: warunek - wyrażenie opisujące warunek logiczny
 
-   blok - wyrażenie które ma być wykonane w pojedynczej iteracji pętli
+  - blok - wyrażenie które ma być wykonane w pojedynczej iteracji pętli
        
 Przypisanie: nazwa - nazwa zmiennej do przypisania (str)
 
-   wartosc - wyrażenie opisujące prawą stronę przypisania
+  - wartosc - wyrażenie opisujące prawą stronę przypisania
              
-Plus|Minus|Razy|Dzielenie: argument1 - wyrażenie opisujące pierwszy argument
+Plus|Minus|Razy|Dzielenie: 
 
-   argument2 - wyrażenie opisujące drugi argument
+   - argument1 - wyrażenie opisujące pierwszy argument
+
+   - argument2 - wyrażenie opisujące drugi argument
                            
 And|Or: argument1 - wyrażenie opisujące pierwszy argument
 
-   argument2 - wyrażenie opisujące drugi argument
+   - argument2 - wyrażenie opisujące drugi argument
         
-< | > | <= | >= | ==: argument1 - wyrażenie opisujące pierwszy argument
+< | > | <= | >= | ==: 
 
-   argument2 - wyrażenie opisujące drugi argument
+   - argument1 - wyrażenie opisujące pierwszy argument
+
+   - argument2 - wyrażenie opisujące drugi argument
                       
-Not: argument - wyrażenie opisujące argument
+Not: 
 
-Liczba: wartosc - wartość stałej liczbowej (double)
+   - argument - wyrażenie opisujące argument
+
+Liczba: 
+
+   - wartosc - wartość stałej liczbowej (double)
 
 True|False: -
 
-Zmienna: nazwa - nazwa zmiennej (str)
+Zmienna: 
+
+   - nazwa - nazwa zmiennej (str)
 
 
 
